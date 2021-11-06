@@ -50,7 +50,7 @@
                         Или вы можете написать нам в Telegram:
                     </p>
                     <p class="telegram__phone">
-                        +375333333333
+                        <a href="https://t.me/oll_ti_mist">+375297881091</a>
                     </p>
                 </div>
             </div>
