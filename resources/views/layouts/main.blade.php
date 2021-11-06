@@ -49,9 +49,11 @@
 
             @yield('header_about')
 
-            <a class="header__button" href="#contacts">
-                <span>&#8595;</span>
-            </a>
+            @if($_isHome == 'view')
+                <a class="header__button" href="#contacts">
+                    <span>&#8595;</span>
+                </a>
+            @endif
             <img class="bg-circles" src="files/img/circles.png">
         </div>
     </header>
