@@ -1,0 +1,14 @@
+@media (min-width: 1800px) {
+  .header__body {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 790px) {
+  .header__links {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}

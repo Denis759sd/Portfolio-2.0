@@ -1,0 +1,321 @@
+.header {
+  margin-bottom: 90px;
+}
+@media (min-width: 1800px) {
+  .header__body {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 790px) {
+  .header__links {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}
+@media (max-width: 460px) {
+  .header__text {
+    font-size: 25px;
+  }
+}
+.main {
+  position: relative;
+}
+
+.order {
+  margin-bottom: 100px;
+}
+.order ::-webkit-scrollbar {
+  width: 7px;
+}
+.order ::-webkit-scrollbar-track {
+  background: rgba(0, 33, 55, 0.8);
+  border-radius: 10px;
+}
+.order ::-webkit-scrollbar-thumb {
+  background: rgba(0, 191, 255, 0.8);
+  border-radius: 10px;
+}
+.order__body {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  background: linear-gradient(270.12deg, #002137 -9.39%, rgba(0, 33, 55, 0) 99.9%), #00BFFF;
+  padding: 50px 110px 30px 110px;
+  border-radius: 90px;
+}
+.order__title {
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.order__subtitle {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.order__name-field {
+  width: 100%;
+  min-height: 60px;
+  border-radius: 20px;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+  color: #002137;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.order__phone-field {
+  width: 100%;
+  min-height: 60px;
+  border-radius: 20px;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+  color: #002137;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.order__mail-field {
+  width: 100%;
+  min-height: 60px;
+  border-radius: 20px;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+  color: #002137;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.order__details-field {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 250px;
+  border-radius: 30px;
+  padding: 12px 10px 12px 10px;
+  font-size: 20px;
+  color: #002137;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.order__button {
+  display: block;
+  width: 280px;
+  border-radius: 30px;
+  margin: 30px auto 0 auto;
+  padding: 12px 0 15px 0;
+  font-size: 23px;
+  background: #00BFFF;
+  color: #fff;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+.order__button:hover {
+  background: #fff;
+  color: #000;
+  -webkit-transform: translate(5px, 5px) scale(1.1);
+          transform: translate(5px, 5px) scale(1.1);
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+.order__button:focus {
+  background: #fff;
+  color: #000;
+  -webkit-transform: translate(5px, 5px) scale(1.1);
+          transform: translate(5px, 5px) scale(1.1);
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+.order__button:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  background: #00BFFF;
+  color: #fff;
+  -webkit-transition: all 0.05s ease 0s;
+  transition: all 0.05s ease 0s;
+}
+
+.field-focus:focus {
+  background: rgba(255, 255, 255, 0.84);
+}
+
+@media (min-width: 1600px) {
+  .order__title {
+    font-size: 38px;
+  }
+
+  .order__subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .order__button {
+    font-size: 30px;
+    width: 350px;
+  }
+}
+@media (max-width: 1480px) {
+  .order__body {
+    max-width: 1100px;
+  }
+}
+@media (max-width: 1250px) {
+  .order__body {
+    max-width: 950px;
+  }
+}
+@media (max-width: 1100px) {
+  .order__body {
+    max-width: 850px;
+    padding: 50px 80px 30px 80px;
+  }
+}
+@media (max-width: 900px) {
+  .order__body {
+    max-width: 750px;
+  }
+}
+@media (max-width: 800px) {
+  .order {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .order__body {
+    padding: 50px 50px 30px 50px;
+  }
+}
+@media (max-width: 500px) {
+  .order__body {
+    padding: 50px 30px 30px 30px;
+  }
+
+  .order__button {
+    width: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .order__name-field, .order__phone-field, .order__mail-field {
+    min-height: 50px;
+  }
+}
+@media (max-width: 330px) {
+  .order__button {
+    width: 160px;
+  }
+}
+.telegram {
+  padding-bottom: 30px;
+}
+.telegram__body {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 40px 32px 40px 32px;
+  background: linear-gradient(270.12deg, #002137 -9.39%, rgba(0, 33, 55, 0) 99.9%), #00BFFF;
+  border-radius: 90px;
+}
+.telegram__title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.telegram__phone {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (min-width: 1600px) {
+  .telegram__title, .telegram__phone {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1480px) {
+  .telegram__body {
+    max-width: 1100px;
+  }
+}
+@media (max-width: 1250px) {
+  .telegram__body {
+    max-width: 950px;
+  }
+}
+@media (max-width: 1100px) {
+  .telegram__body {
+    max-width: 850px;
+    padding: 50px 80px 30px 80px;
+  }
+}
+@media (max-width: 900px) {
+  .telegram__body {
+    max-width: 750px;
+  }
+}
+@media (max-width: 520px) {
+  .telegram__body {
+    border-radius: 60px;
+    padding: 30px 22px 30px 22px;
+  }
+}
+@media (max-width: 330px) {
+  .telegram__body {
+    padding: 20px 5px 20px 5px;
+  }
+}
+.bg-circles-1 {
+  position: absolute;
+  top: 40px;
+  left: 2vw;
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+
+.bg-circles-2 {
+  position: absolute;
+  top: 240px;
+  right: 3vw;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+}
+
+.bg-circles-3 {
+  position: absolute;
+  top: 440px;
+  left: 4vw;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.bg-circles-4 {
+  position: absolute;
+  top: 540px;
+  right: 5vw;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+
+.bg-circles-5 {
+  position: absolute;
+  bottom: 240px;
+  left: 3vw;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+}
+
+.bg-circles-6 {
+  position: absolute;
+  bottom: 190px;
+  right: 30vw;
+}
+
+@media (max-width: 800px) {
+  .bg-circles-1, .bg-circles-2, .bg-circles-3, .bg-circles-4,
+.bg-circles-5, .bg-circles-6 {
+    display: none;
+  }
+}
